@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "Winter": ["Hoodie", "Jacket", "Sweater"],
+    "Summer": ["T-shirt", "Polo"],
+    "Underwear": ["Boxer", "Shorts"],
+    "Accessories": ["Cap", "Sunglasses"],
+    "Pants & Shorts": ["Jeans", "Cotton", "Gabardine"],
+    "Shoes": ["Sneakers", "Formal", "Sandals"]
+  },
+  "users": {},
+  "items": []
+}
