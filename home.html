@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Clothes</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2 id="welcome"></h2>
+
+    <h3>Add a clothing item</h3>
+    <form id="addItemForm">
+      <input name="name" placeholder="Item name"><br>
+
+      <select name="section" id="sectionSelect"></select><br>
+      <input name="subsection" placeholder="Subsection"><br>
+
+      <select name="house">
+        <option>House 1</option>
+        <option>House 2</option>
+      </select><br>
+
+      <label><input type="checkbox" name="washed"> Washed</label>
+      <label><input type="checkbox" name="ironed"> Ironed</label><br>
+
+      <input name="images" type="text" placeholder="Image URLs (comma separated)"><br>
+
+      <button type="submit">Add</button>
+    </form>
+
+    <h3>Clothes</h3>
+    <div id="items"></div>
+  </div>
+</body>
+</html>
